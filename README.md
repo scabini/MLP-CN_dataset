@@ -1,7 +1,10 @@
 # MLP-CN_dataset
-A dataset of fully-connected neural networks trained on vision benchmarks and their corresponding Complex Network (CN) properties. Models are MLPs with sizes 784x200x100x10, ReLu/softmax activations, and trained with stochastic gradient descent.
 
-Data contains all their synapse states, i.e., from random initialization and throughout all training epochs. Complex Network measures are then computed individually to all its hidden neurons.
+This repository corresponds to the work "Structure and Performance of Fully-Connected Neural Networks Through Complex Networks", which introduces the concept of Bag-Of-Neurons (BON) for analyzing neurons on fully-connected neural networks using Complex Networks.
+
+We provide a dataset of fully-connected neural networks trained on vision benchmarks, and their corresponding Complex Network (CN) properties. Models are MLPs with sizes 784x200x100x10, ReLu/softmax activations, and trained with stochastic gradient descent.
+
+Data contains all network synapses from random initialization and throughout all training epochs. Complex Network measures are then computed to all hidden neurons.
 
 Data is stored in a server and can be accessed at http://scg-turing.ifsc.usp.br/data/bases/MLP-CN_dataset/
   - The main directory contains subfolders separated by the target vision benchmarks ("benchmark_deepFeedForward")
