@@ -11,7 +11,7 @@ We provide a dataset of fully-connected neural networks trained on vision benchm
 
 ! folders "EMNISTLETTERS" and "EMNIST" were not used on the paper and did not contain the whole data nor the same structure as the other folders !
 
-* Folder "results" contains data used for the paper's analyzes. See "sample_results.py".
+* Folder "results" contains data used for the paper's analyzes. The folder here contains files for the MNIST benchmark, others are on the server. See "sample_results.py" for detail on how to open them.
   * "gathered_measures" -> pickle files containing CN measures (not normalized) and model's performance gathered from all neural networks after training.
   * "kmeans_centers" -> the final k-means centroids (k=6) obtained from each dataset.
 
