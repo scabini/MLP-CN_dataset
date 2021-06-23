@@ -11,6 +11,10 @@ We provide a dataset of fully-connected neural networks trained on vision benchm
 
 ! folders "EMNISTLETTERS" and "EMNIST" were not used on the paper and did not contain the whole data nor the same structure as the other folders !
 
+* Folder "results" contains data used for the paper's analyzes. See "sample_results.py".
+  * "gathered_measures" -> pickle files containing CN measures (not normalized) and model's performance gathered from all neural networks after training.
+  * "kmeans_centers" -> the final k-means centroids (k=6) obtained from each dataset.
+
 ## Requirements
 * requirements.txt --> Contains the primary package versions used to build, train and store the neural networks, as long as to compute its CN measures. Notice that RNG may vary between different combinations of packages and versions. We use Anaconda for package managing:
   *  `conda install --file requirements.txt` 
