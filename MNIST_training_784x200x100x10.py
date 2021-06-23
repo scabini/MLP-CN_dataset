@@ -157,15 +157,9 @@ for i in range(1,number_of_networks+1):
         pickle.dump([weights1_2, weights2_3, weights3_4, losses, accuracies], f)
     model.save(path_save + 'network' + str(i) + '.h5') 
     
-    #here onwards it is possible to perform operation with the current model
+    #here onwards it is possible to perform operations with the current model
     
     #otherwise, close it
     del model
-    K.clear_session() 
-    
-    
-    
-    
-    
-    
+    K.clear_session()     
     
