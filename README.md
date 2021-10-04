@@ -29,7 +29,7 @@ We provide a dataset of fully connected neural networks trained on vision benchm
 
 ## Cite
 
-If you use this method, please cite our paper:
+If you use our data or methods, please cite the paper:
 
 Scabini, L., and Bruno, O. "Structure and Performance of Fully Connected Neural Networks: Emerging Complex Network Properties", arxiv preprint (2021).
 
