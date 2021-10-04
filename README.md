@@ -4,6 +4,10 @@
 
 https://arxiv.org/abs/2107.14062
 
+<p align="center">
+    <img src="example.png" height="440px">
+</p>
+
 
 ## Files
 We provide a dataset of fully connected neural networks trained on vision benchmarks, and their corresponding Complex Network (CN) properties. Models are MLPs with sizes 784x200x100x10, ReLu/softmax activations, and trained with stochastic gradient descent. Data contains all network synapses from random initialization and throughout all training epochs. Complex Network measures are then computed to all hidden neurons. The whole data is around 140GB, and is stored in a server: http://scg-turing.ifsc.usp.br/data/bases/MLP-CN_dataset/
