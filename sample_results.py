@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jun 22 12:14:49 2021
-@author: Svartox
+@author: Scabini
 Opening data and some results from our dataset: CN measures and k-means centers 
 """
 import pickle
