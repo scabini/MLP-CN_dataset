@@ -22,7 +22,7 @@ We provide a dataset of fully connected neural networks trained on vision benchm
   * "kmeans_centers" -> the final k-means centroids (k=6) obtained from each dataset.
 
 ## Requirements
-* requirements.txt --> Contains the primary package versions used to build, train and store the neural networks, as long as to compute its CN measures. Notice that RNG may vary between different combinations of packages and versions. We use Anaconda for package managing:
+* requirements.txt --> Contains the primary package versions used to build, train and store the neural networks, as well as to compute their CN measures. Notice that RNG may vary between different combinations of packages and versions. We use Anaconda for package managing:
   *  `conda install --file requirements.txt` 
   * cudnn 7.6.5, cuda10.2_0 -> NVIDIA (along with GPU drivers)
   * scipy 1.2.1             
