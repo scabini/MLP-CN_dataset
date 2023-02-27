@@ -37,7 +37,7 @@ We provide a dataset of fully connected neural networks trained on vision benchm
 
 If you use our data or methods, please cite the paper:
 
-Scabini, L., and Bruno, O. "Structure and Performance of Fully Connected Neural Networks: Emerging Complex Network Properties", arxiv preprint (2021).
+Scabini, Leonardo FS, and Odemir M. Bruno. "Structure and performance of fully connected neural networks: Emerging complex network properties." Physica A: Statistical Mechanics and its Applications (2023): 128585.
 
 ```
 @article{scabini2023structure,
