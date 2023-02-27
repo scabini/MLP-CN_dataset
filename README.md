@@ -3,6 +3,7 @@
 #### This repository contains data and source code related to the work "Structure and Performance of Fully Connected Neural Networks: Emerging Complex Network Properties", which introduces the concept of Bag-Of-Neurons (BON) for analyzing neurons on neural networks using Complex Networks.
 
 https://arxiv.org/abs/2107.14062
+https://doi.org/10.1016/j.physa.2023.128585
 
 <p align="center">
     <img src="example.png" height="400px">
@@ -38,10 +39,11 @@ If you use our data or methods, please cite the paper:
 Scabini, L., and Bruno, O. "Structure and Performance of Fully Connected Neural Networks: Emerging Complex Network Properties", arxiv preprint (2021).
 
 ```
-@article{scabini2021structure,
-  title={Structure and Performance of Fully Connected Neural Networks: Emerging Complex Network Properties},
+@article{scabini2023structure,
+  title={Structure and performance of fully connected neural networks: Emerging complex network properties},
   author={Scabini, Leonardo FS and Bruno, Odemir M},
-  journal={arXiv preprint},
-  year={2021}
+  journal={Physica A: Statistical Mechanics and its Applications},
+  year={2023},
+  publisher={Elsevier}
 }
 ```     
